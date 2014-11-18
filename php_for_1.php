@@ -1,7 +1,7 @@
 <?php
 // salida <table> html usando unicamente PHP, version 1
 
-echo "<table>";
+echo "<table border=\"1\">";
 
 for($x = 0; $x < 10; $x++)
 {
