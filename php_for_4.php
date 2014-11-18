@@ -2,7 +2,7 @@
 // salida <table> html usando unicamente HTML+PHP, version 2
 ?>
 
-<table>
+<table border="1">
 
 <?php
 for($x = 0; $x < 10; $x++)
@@ -13,7 +13,7 @@ for($x = 0; $x < 10; $x++)
       echo $x
     ?>
     </td></tr>
-<?
+<?php
 }
 ?>
 
